@@ -1,23 +1,20 @@
-import logo from './logo.svg';
-import './App.css';
-
+import Announcement from "./components/Announcement";
+import Gallery from "./components/Gallery";
+import Hero from "./components/Hero";
+import InvitationDate from "./components/InvitationDate";
+import InvMessage from "./components/InvMessage";
+import Quote from "./components/Quote";
+import "animate.css";
+import "aos/dist/aos.css";
+import Aos from "aos";
+import OurTradition from "./components/OurTradition";
+import portfolio from "./Portfolio.json";
 function App() {
+  Aos.init();
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Hero />
+      <InvitationDate portfolio={portfolio} />
     </div>
   );
 }

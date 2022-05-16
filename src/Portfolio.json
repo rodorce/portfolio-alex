@@ -9,7 +9,6 @@
       "Tacos La Aduana",
       "Gala",
       "Racxaz",
-      "Spirit Blade",
       "El Globo"
     ],
     "description": [
@@ -20,9 +19,38 @@
       "Un cliente al cual le propuse una idea de cambio, unos tacos que ya por tradición se había quedado ahí, cerca de la aduana, su nombre no era tan llamativo para los clientes pero su sabor si, la misma clientela hizo que el nombre cambiará y es así como me ofrecí a hacer un logotipo y ellos aceptaron dando todo el concepto de lo que hoy es la taquería: “la aduana” cambio de tacos el lobo a taqueria aduana dado a que quedan a un costado de ella, y ahora sí honor a quien honor merece, su nombre ya está en boca de todos como debió de ser desde un principio.",
       "Un cliente desde Laredo Texas nos contactó dado a que su logo ya no llamaba la atención desde antes la compañía cambió de dueño y cayó en manos de alguien joven que quería algo más vivo para la empresa es así como nació el rediseño de GALA lo que ordenó el cliente es que fuera todo lo contrario a lo que ya se tenia, y quedo contento con el resultado.",
       "Un cliente desde Monterrey nos pidió un logotipo para la comunidad gamer, idea simple solo su cara, con una tipografía en itálica bold es así como el logotipo de racxaz se incluyó en este portafolio.",
-      "Un cliente desde Monterrey nos pidió un logotipo para la comunidad gamer, a comparación del cliente pasado, fue muy diferente ya tenia una tipografía elegida la cual había que dibujar, Pidió una katana y dio los colores, el resultado fue un logo que se adaptara a las necesidades que el mismo cliente pidió, no tuvimos tanta oportunidad de cambiar su ideal pero al final de cuenta es lo que el cliente pida.",
       "Un empresa de Nuevo Laredo nos encargó un rediseño de su logotipo estaba pensando entrar en nuevas tendencias y su logotipo no era de todo adaptable, sin embargo dio órdenes de que se respetara la esencia le dimos un giro con su propia tipografía e integramos un isotipo el cual se puede usar fácilmente en redes."
     ],
-    "gallery": ["", "", "", "", "", "", "", "", ""]
+    "date": [
+      "02 de enero 2022",
+      "06 de junio 2019",
+      "21 de agosto 2021",
+      "10 de octubre 2021",
+      "9 de marzo 2019",
+      "17 de noviembre 2020",
+      "25 de marzo 2020",
+      "07 de septiembre 2021"
+    ],
+    "keywords": [
+      "TACTIC / ACADEMIA / ARCO / TIRO CON ARCO / HOBBY / DIFERENTE",
+      "BOLIS / BOLLOS / SNACKS / FAMILIAR / CASERO",
+      "ENSALADA / SALUDABLE / NIEVE / FITNESS",
+      "MORDIDA / BITE / GUSTO / SNACK / EUA / PRODUCTOS",
+      "TACOS / BURRITOS / FRIJOLES / SALSA / SAZÓN / SABOR",
+      "CAMIÓN / MANDADOS / TRANSPORTISTAS / OPERADORES / MODERNIDAD",
+      "VIDEOJUEGOS / STREAMER / MOBAS / RPGS",
+      "TRADICIÓN / FAMILIAR"
+    ],
+    "gallery": ["", "", "", "", "", "", "", "", ""],
+    "category": [
+      "Deporte / Emprendimiento / Academia / Enseñanza",
+      "Gustito / Bolis / Bollo / Hielito / Gourmet / Snack",
+      "Restaurantes / Ensaladas / Fitness / Nieves",
+      "Snack / Americanos / Productos / Calidad / Chucherias",
+      "Tacos / Mexicnaos / Mixtos / USAYMEX",
+      "USA / TRANSPORTISTAS",
+      "Streamer / Videojuegos / Videos",
+      "Negocio local / Uniformes / Regional / Disfraces"
+    ]
   }
 }

@@ -1,19 +1,24 @@
 import React, { useEffect, useState } from "react";
 import { ArrowLeft, ArrowRight, Heart } from "iconoir-react";
 import portfolio from "../Portfolio.json";
-import amshirt from "../photos/am-shirt.png";
 import Gallery from "./Gallery";
 const InvitationDate = (props) => {
   const [counter, setCounter] = useState(0);
   const [project, setProject] = useState({
     title: portfolio.projects.title[0],
     description: portfolio.projects.description[0],
+    date: portfolio.projects.date[0],
+    keywords: portfolio.projects.keywords[0],
+    category: portfolio.projects.category[0],
   });
 
   useEffect(() => {
     setProject({
       title: portfolio.projects.title[counter],
       description: portfolio.projects.description[counter],
+      date: portfolio.projects.date[counter],
+      keywords: portfolio.projects.keywords[counter],
+      category: portfolio.projects.category[counter],
     });
   }, [counter]);
 
@@ -57,10 +62,19 @@ const InvitationDate = (props) => {
               className="text-4xl mx-28"
             />
           </div>
+          <h5 className="font-semibold lg:text-xl text-center font-Oswald my-5">
+            Fecha: {project.date}
+          </h5>
+          <h5 className="font-semibold lg:text-xl text-center font-Oswald my-5">
+            Categoria: {project.category}
+          </h5>
+          <h5 className="font-semibold lg:text-xl text-center font-Oswald my-5">
+            Keywords: {project.keywords}
+          </h5>
           <div className="pt-10">
             <div className="lg:px-5 mb-10 lg:mb-0">
               <h3
-                className="font-medium text-xl tracking-widest text-center font-Oswald"
+                className="font-medium text-md tracking-wide text-center font-Oswald"
                 data-aos="fade-in"
               >
                 {project.description}
